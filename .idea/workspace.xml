@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0e3134-bdb8-4c54-86e6-c1f406b18001" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesign/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesign/phone/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesign/phone/Ios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesign/phone/OS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesign/phone/OperatingSystemFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryDesign/phone/Windows.java" afterDir="false" />
+    <list default="true" id="fe0e3134-bdb8-4c54-86e6-c1f406b18001" name="Changes" comment="factory pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/buiderDesign/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/buiderDesign/PhoneBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/buiderDesign/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +39,7 @@
   "keyToString": {
     "Application.Factory.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Shop.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -128,11 +120,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739710763056</updated>
-      <workItem from="1739710764381" duration="1756000" />
+      <workItem from="1739710764381" duration="2449000" />
     </task>
+    <task id="LOCAL-00001" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1739714235137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739714235137</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory pattern" />
   </component>
 </project>
